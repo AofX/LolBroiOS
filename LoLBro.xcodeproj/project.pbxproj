@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C014C102A805E9B005DA2F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C014C0F2A805E9B005DA2F2 /* AppDelegate.swift */; };
+		1C014C122A805E9B005DA2F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C014C112A805E9B005DA2F2 /* SceneDelegate.swift */; };
+		1C014C142A805E9B005DA2F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C014C132A805E9B005DA2F2 /* ViewController.swift */; };
+		1C014C172A805E9B005DA2F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C014C152A805E9B005DA2F2 /* Main.storyboard */; };
+		1C014C1A2A805E9B005DA2F2 /* LoLBro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C014C182A805E9B005DA2F2 /* LoLBro.xcdatamodeld */; };
+		1C014C1C2A805E9D005DA2F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C014C1B2A805E9D005DA2F2 /* Assets.xcassets */; };
+		1C014C1F2A805E9D005DA2F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C014C1D2A805E9D005DA2F2 /* LaunchScreen.storyboard */; };
+		1C014C2A2A805E9E005DA2F2 /* LoLBroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C014C292A805E9E005DA2F2 /* LoLBroTests.swift */; };
+		1C014C342A805E9E005DA2F2 /* LoLBroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C014C332A805E9E005DA2F2 /* LoLBroUITests.swift */; };
+		1C014C362A805E9E005DA2F2 /* LoLBroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C014C352A805E9E005DA2F2 /* LoLBroUITestsLaunchTests.swift */; };
+		1C014C482A8061DC005DA2F2 /* LeagueAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 1C014C472A8061DC005DA2F2 /* LeagueAPI */; };
+		1C84F5122A80678100B8B419 /* ChampNameIDDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C84F5112A80678100B8B419 /* ChampNameIDDictionary.swift */; };
+		1C84F5152A806AE600B8B419 /* AbilityFormula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C84F5142A806AE600B8B419 /* AbilityFormula.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C014C262A805E9E005DA2F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C014C042A805E9B005DA2F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C014C0B2A805E9B005DA2F2;
+			remoteInfo = LoLBro;
+		};
+		1C014C302A805E9E005DA2F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C014C042A805E9B005DA2F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C014C0B2A805E9B005DA2F2;
+			remoteInfo = LoLBro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C014C0C2A805E9B005DA2F2 /* LoLBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoLBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C014C0F2A805E9B005DA2F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C014C112A805E9B005DA2F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1C014C132A805E9B005DA2F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C014C162A805E9B005DA2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C014C192A805E9B005DA2F2 /* LoLBro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoLBro.xcdatamodel; sourceTree = "<group>"; };
+		1C014C1B2A805E9D005DA2F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C014C1E2A805E9D005DA2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C014C202A805E9D005DA2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C014C252A805E9E005DA2F2 /* LoLBroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoLBroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C014C292A805E9E005DA2F2 /* LoLBroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoLBroTests.swift; sourceTree = "<group>"; };
+		1C014C2F2A805E9E005DA2F2 /* LoLBroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoLBroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C014C332A805E9E005DA2F2 /* LoLBroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoLBroUITests.swift; sourceTree = "<group>"; };
+		1C014C352A805E9E005DA2F2 /* LoLBroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoLBroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1C84F5112A80678100B8B419 /* ChampNameIDDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampNameIDDictionary.swift; sourceTree = "<group>"; };
+		1C84F5142A806AE600B8B419 /* AbilityFormula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilityFormula.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C014C092A805E9B005DA2F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C014C482A8061DC005DA2F2 /* LeagueAPI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C014C222A805E9E005DA2F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C014C2C2A805E9E005DA2F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C014C032A805E9B005DA2F2 = {
+			isa = PBXGroup;
+			children = (
+				1C014C0E2A805E9B005DA2F2 /* LoLBro */,
+				1C014C282A805E9E005DA2F2 /* LoLBroTests */,
+				1C014C322A805E9E005DA2F2 /* LoLBroUITests */,
+				1C014C0D2A805E9B005DA2F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C014C0D2A805E9B005DA2F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C014C0C2A805E9B005DA2F2 /* LoLBro.app */,
+				1C014C252A805E9E005DA2F2 /* LoLBroTests.xctest */,
+				1C014C2F2A805E9E005DA2F2 /* LoLBroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C014C0E2A805E9B005DA2F2 /* LoLBro */ = {
+			isa = PBXGroup;
+			children = (
+				1C84F5132A806ABB00B8B419 /* Math */,
+				1C84F5102A80674400B8B419 /* Constants */,
+				1C014C0F2A805E9B005DA2F2 /* AppDelegate.swift */,
+				1C014C112A805E9B005DA2F2 /* SceneDelegate.swift */,
+				1C014C132A805E9B005DA2F2 /* ViewController.swift */,
+				1C014C152A805E9B005DA2F2 /* Main.storyboard */,
+				1C014C1B2A805E9D005DA2F2 /* Assets.xcassets */,
+				1C014C1D2A805E9D005DA2F2 /* LaunchScreen.storyboard */,
+				1C014C202A805E9D005DA2F2 /* Info.plist */,
+				1C014C182A805E9B005DA2F2 /* LoLBro.xcdatamodeld */,
+			);
+			path = LoLBro;
+			sourceTree = "<group>";
+		};
+		1C014C282A805E9E005DA2F2 /* LoLBroTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C014C292A805E9E005DA2F2 /* LoLBroTests.swift */,
+			);
+			path = LoLBroTests;
+			sourceTree = "<group>";
+		};
+		1C014C322A805E9E005DA2F2 /* LoLBroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C014C332A805E9E005DA2F2 /* LoLBroUITests.swift */,
+				1C014C352A805E9E005DA2F2 /* LoLBroUITestsLaunchTests.swift */,
+			);
+			path = LoLBroUITests;
+			sourceTree = "<group>";
+		};
+		1C84F5102A80674400B8B419 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1C84F5112A80678100B8B419 /* ChampNameIDDictionary.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		1C84F5132A806ABB00B8B419 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				1C84F5142A806AE600B8B419 /* AbilityFormula.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C014C0B2A805E9B005DA2F2 /* LoLBro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C014C392A805E9E005DA2F2 /* Build configuration list for PBXNativeTarget "LoLBro" */;
+			buildPhases = (
+				1C014C082A805E9B005DA2F2 /* Sources */,
+				1C014C092A805E9B005DA2F2 /* Frameworks */,
+				1C014C0A2A805E9B005DA2F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoLBro;
+			packageProductDependencies = (
+				1C014C472A8061DC005DA2F2 /* LeagueAPI */,
+			);
+			productName = LoLBro;
+			productReference = 1C014C0C2A805E9B005DA2F2 /* LoLBro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C014C242A805E9E005DA2F2 /* LoLBroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C014C3C2A805E9E005DA2F2 /* Build configuration list for PBXNativeTarget "LoLBroTests" */;
+			buildPhases = (
+				1C014C212A805E9E005DA2F2 /* Sources */,
+				1C014C222A805E9E005DA2F2 /* Frameworks */,
+				1C014C232A805E9E005DA2F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C014C272A805E9E005DA2F2 /* PBXTargetDependency */,
+			);
+			name = LoLBroTests;
+			productName = LoLBroTests;
+			productReference = 1C014C252A805E9E005DA2F2 /* LoLBroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C014C2E2A805E9E005DA2F2 /* LoLBroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C014C3F2A805E9E005DA2F2 /* Build configuration list for PBXNativeTarget "LoLBroUITests" */;
+			buildPhases = (
+				1C014C2B2A805E9E005DA2F2 /* Sources */,
+				1C014C2C2A805E9E005DA2F2 /* Frameworks */,
+				1C014C2D2A805E9E005DA2F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C014C312A805E9E005DA2F2 /* PBXTargetDependency */,
+			);
+			name = LoLBroUITests;
+			productName = LoLBroUITests;
+			productReference = 1C014C2F2A805E9E005DA2F2 /* LoLBroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C014C042A805E9B005DA2F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1C014C0B2A805E9B005DA2F2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					1C014C242A805E9E005DA2F2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1C014C0B2A805E9B005DA2F2;
+					};
+					1C014C2E2A805E9E005DA2F2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1C014C0B2A805E9B005DA2F2;
+					};
+				};
+			};
+			buildConfigurationList = 1C014C072A805E9B005DA2F2 /* Build configuration list for PBXProject "LoLBro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C014C032A805E9B005DA2F2;
+			packageReferences = (
+				1C014C462A8061DC005DA2F2 /* XCRemoteSwiftPackageReference "LeagueAPI" */,
+			);
+			productRefGroup = 1C014C0D2A805E9B005DA2F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C014C0B2A805E9B005DA2F2 /* LoLBro */,
+				1C014C242A805E9E005DA2F2 /* LoLBroTests */,
+				1C014C2E2A805E9E005DA2F2 /* LoLBroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C014C0A2A805E9B005DA2F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C014C1F2A805E9D005DA2F2 /* LaunchScreen.storyboard in Resources */,
+				1C014C1C2A805E9D005DA2F2 /* Assets.xcassets in Resources */,
+				1C014C172A805E9B005DA2F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C014C232A805E9E005DA2F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C014C2D2A805E9E005DA2F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C014C082A805E9B005DA2F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C014C142A805E9B005DA2F2 /* ViewController.swift in Sources */,
+				1C84F5122A80678100B8B419 /* ChampNameIDDictionary.swift in Sources */,
+				1C014C1A2A805E9B005DA2F2 /* LoLBro.xcdatamodeld in Sources */,
+				1C84F5152A806AE600B8B419 /* AbilityFormula.swift in Sources */,
+				1C014C102A805E9B005DA2F2 /* AppDelegate.swift in Sources */,
+				1C014C122A805E9B005DA2F2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C014C212A805E9E005DA2F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C014C2A2A805E9E005DA2F2 /* LoLBroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C014C2B2A805E9E005DA2F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C014C362A805E9E005DA2F2 /* LoLBroUITestsLaunchTests.swift in Sources */,
+				1C014C342A805E9E005DA2F2 /* LoLBroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C014C272A805E9E005DA2F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C014C0B2A805E9B005DA2F2 /* LoLBro */;
+			targetProxy = 1C014C262A805E9E005DA2F2 /* PBXContainerItemProxy */;
+		};
+		1C014C312A805E9E005DA2F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C014C0B2A805E9B005DA2F2 /* LoLBro */;
+			targetProxy = 1C014C302A805E9E005DA2F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C014C152A805E9B005DA2F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C014C162A805E9B005DA2F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C014C1D2A805E9D005DA2F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C014C1E2A805E9D005DA2F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C014C372A805E9E005DA2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C014C382A805E9E005DA2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C014C3A2A805E9E005DA2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoLBro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LoLgic.LoLBro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C014C3B2A805E9E005DA2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoLBro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LoLgic.LoLBro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C014C3D2A805E9E005DA2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LoLgic.LoLBroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoLBro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoLBro";
+			};
+			name = Debug;
+		};
+		1C014C3E2A805E9E005DA2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LoLgic.LoLBroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoLBro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoLBro";
+			};
+			name = Release;
+		};
+		1C014C402A805E9E005DA2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LoLgic.LoLBroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoLBro;
+			};
+			name = Debug;
+		};
+		1C014C412A805E9E005DA2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LoLgic.LoLBroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoLBro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C014C072A805E9B005DA2F2 /* Build configuration list for PBXProject "LoLBro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C014C372A805E9E005DA2F2 /* Debug */,
+				1C014C382A805E9E005DA2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C014C392A805E9E005DA2F2 /* Build configuration list for PBXNativeTarget "LoLBro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C014C3A2A805E9E005DA2F2 /* Debug */,
+				1C014C3B2A805E9E005DA2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C014C3C2A805E9E005DA2F2 /* Build configuration list for PBXNativeTarget "LoLBroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C014C3D2A805E9E005DA2F2 /* Debug */,
+				1C014C3E2A805E9E005DA2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C014C3F2A805E9E005DA2F2 /* Build configuration list for PBXNativeTarget "LoLBroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C014C402A805E9E005DA2F2 /* Debug */,
+				1C014C412A805E9E005DA2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1C014C462A8061DC005DA2F2 /* XCRemoteSwiftPackageReference "LeagueAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kelmatou/LeagueAPI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C014C472A8061DC005DA2F2 /* LeagueAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C014C462A8061DC005DA2F2 /* XCRemoteSwiftPackageReference "LeagueAPI" */;
+			productName = LeagueAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		1C014C182A805E9B005DA2F2 /* LoLBro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1C014C192A805E9B005DA2F2 /* LoLBro.xcdatamodel */,
+			);
+			currentVersion = 1C014C192A805E9B005DA2F2 /* LoLBro.xcdatamodel */;
+			path = LoLBro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1C014C042A805E9B005DA2F2 /* Project object */;
+}

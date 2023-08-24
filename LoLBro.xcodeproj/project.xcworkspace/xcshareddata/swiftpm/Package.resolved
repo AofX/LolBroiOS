@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "leagueapi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kelmatou/LeagueAPI",
+      "state" : {
+        "revision" : "dc772d719e4fb69446b3b2438da43845c0eba46b",
+        "version" : "4.3.0"
+      }
+    }
+  ],
+  "version" : 2
+}
