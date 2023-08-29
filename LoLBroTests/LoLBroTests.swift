@@ -6,12 +6,27 @@
 //
 
 import XCTest
+import LeagueAPI
 @testable import LoLBro
 
 final class LoLBroTests: XCTestCase {
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        // get key from https://developer.riotgames.com/#
+        let league = LeagueAPI(APIToken: "RGAPI-a5b5b45f-a5b1-4da6-beda-7042d68b463b")
+        
+        league.lolAPI.getAllChampionNames(handler: { nameArry, name in
+            for name in nameArry! {
+                print("\"\(name)\",/n")
+            }
+//            print(nameArry)
+//
+//            print("====================")
+//            print(name)
+            
+        })
+        
+        
     }
 
     override func tearDownWithError() throws {

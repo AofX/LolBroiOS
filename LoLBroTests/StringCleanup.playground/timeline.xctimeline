@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Timeline
+   version = "3.0">
+   <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/kevinjimenez/Documents/LoLBro/LoLBroTests/StringCleanup.playground#CharacterRangeLen=12&amp;CharacterRangeLoc=12748&amp;EndingColumnNumber=16&amp;EndingLineNumber=553&amp;StartingColumnNumber=4&amp;StartingLineNumber=553&amp;Timestamp=714974250.7622091"
+         selectedRepresentationIndex = "0">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/kevinjimenez/Documents/LoLBro/LoLBroTests/StringCleanup.playground#CharacterRangeLen=7&amp;CharacterRangeLoc=12671&amp;EndingColumnNumber=11&amp;EndingLineNumber=549&amp;StartingColumnNumber=4&amp;StartingLineNumber=549&amp;Timestamp=714974250.762316"
+         selectedRepresentationIndex = "0">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/kevinjimenez/Documents/LoLBro/LoLBroTests/StringCleanup.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=12320&amp;EndingColumnNumber=0&amp;EndingLineNumber=537&amp;StartingColumnNumber=0&amp;StartingLineNumber=537&amp;Timestamp=714974250.7623791"
+         selectedRepresentationIndex = "0">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/kevinjimenez/Documents/LoLBro/LoLBroTests/StringCleanup.playground#CharacterRangeLen=41&amp;CharacterRangeLoc=12398&amp;EndingColumnNumber=60&amp;EndingLineNumber=540&amp;StartingColumnNumber=19&amp;StartingLineNumber=540&amp;Timestamp=714974250.762467"
+         selectedRepresentationIndex = "0">
+      </LoggerValueHistoryTimelineItem>
+   </TimelineItems>
+   <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "documentLocation"
+         selectedRepresentationIndex = "selectedRepresentationIndex">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "documentLocation"
+         lockedSize = "lockedSize"
+         selectedRepresentationIndex = "selectedRepresentationIndex"
+         shouldTrackSuperviewWidth = "shouldTrackSuperviewWidth">
+      </LoggerValueHistoryTimelineItem>
+   </TimelineItems>
+</Timeline>

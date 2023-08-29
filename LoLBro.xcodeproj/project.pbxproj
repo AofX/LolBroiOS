@@ -14,6 +14,9 @@
 		43A285032A97026C004A1A94 /* LoLBroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A285022A97026C004A1A94 /* LoLBroTests.swift */; };
 		43A2850D2A97026C004A1A94 /* LoLBroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A2850C2A97026C004A1A94 /* LoLBroUITests.swift */; };
 		43A2850F2A97026C004A1A94 /* LoLBroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A2850E2A97026C004A1A94 /* LoLBroUITestsLaunchTests.swift */; };
+		43A285222A970346004A1A94 /* ChampNameIDDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A2851F2A970346004A1A94 /* ChampNameIDDictionary.swift */; };
+		43A285252A970350004A1A94 /* AbilityFormula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A285242A970350004A1A94 /* AbilityFormula.swift */; };
+		43A285282A9707DD004A1A94 /* LeagueAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 43A285272A9707DD004A1A94 /* LeagueAPI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		43A285082A97026C004A1A94 /* LoLBroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoLBroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A2850C2A97026C004A1A94 /* LoLBroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoLBroUITests.swift; sourceTree = "<group>"; };
 		43A2850E2A97026C004A1A94 /* LoLBroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoLBroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43A2851F2A970346004A1A94 /* ChampNameIDDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampNameIDDictionary.swift; sourceTree = "<group>"; };
+		43A285242A970350004A1A94 /* AbilityFormula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbilityFormula.swift; sourceTree = "<group>"; };
+		43A285292A970C1A004A1A94 /* StringCleanup.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StringCleanup.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A285282A9707DD004A1A94 /* LeagueAPI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +101,8 @@
 		43A284F02A97026A004A1A94 /* LoLBro */ = {
 			isa = PBXGroup;
 			children = (
+				43A2851D2A9702EB004A1A94 /* Constants */,
+				43A2851B2A9702C8004A1A94 /* Math */,
 				43A284F12A97026A004A1A94 /* LoLBroApp.swift */,
 				43A284F32A97026A004A1A94 /* ContentView.swift */,
 				43A284F52A97026C004A1A94 /* Assets.xcassets */,
@@ -114,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				43A285022A97026C004A1A94 /* LoLBroTests.swift */,
+				43A285292A970C1A004A1A94 /* StringCleanup.playground */,
 			);
 			path = LoLBroTests;
 			sourceTree = "<group>";
@@ -125,6 +135,22 @@
 				43A2850E2A97026C004A1A94 /* LoLBroUITestsLaunchTests.swift */,
 			);
 			path = LoLBroUITests;
+			sourceTree = "<group>";
+		};
+		43A2851B2A9702C8004A1A94 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				43A285242A970350004A1A94 /* AbilityFormula.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		43A2851D2A9702EB004A1A94 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				43A2851F2A970346004A1A94 /* ChampNameIDDictionary.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +169,9 @@
 			dependencies = (
 			);
 			name = LoLBro;
+			packageProductDependencies = (
+				43A285272A9707DD004A1A94 /* LeagueAPI */,
+			);
 			productName = LoLBro;
 			productReference = 43A284EE2A97026A004A1A94 /* LoLBro.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +244,9 @@
 				Base,
 			);
 			mainGroup = 43A284E52A97026A004A1A94;
+			packageReferences = (
+				43A285262A9707DD004A1A94 /* XCRemoteSwiftPackageReference "LeagueAPI" */,
+			);
 			productRefGroup = 43A284EF2A97026A004A1A94 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,6 +291,8 @@
 			files = (
 				43A284F42A97026A004A1A94 /* ContentView.swift in Sources */,
 				43A284F22A97026A004A1A94 /* LoLBroApp.swift in Sources */,
+				43A285222A970346004A1A94 /* ChampNameIDDictionary.swift in Sources */,
+				43A285252A970350004A1A94 /* AbilityFormula.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +617,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		43A285262A9707DD004A1A94 /* XCRemoteSwiftPackageReference "LeagueAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kelmatou/LeagueAPI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		43A285272A9707DD004A1A94 /* LeagueAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 43A285262A9707DD004A1A94 /* XCRemoteSwiftPackageReference "LeagueAPI" */;
+			productName = LeagueAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 43A284E62A97026A004A1A94 /* Project object */;
 }
