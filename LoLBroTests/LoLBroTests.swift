@@ -13,11 +13,11 @@ final class LoLBroTests: XCTestCase {
 
     override func setUpWithError() throws {
         // get key from https://developer.riotgames.com/#
-        let league = LeagueAPI(APIToken: "RGAPI-a5b5b45f-a5b1-4da6-beda-7042d68b463b")
+        let league = LeagueAPI(APIToken: "RGAPI-f30b3f75-3fad-4d5a-9bc3-0dc5616d000c")
         
         league.lolAPI.getAllChampionNames(handler: { nameArry, name in
             for name in nameArry! {
-                print("\"\(name)\",/n")
+               // print("\"\(name)\",/n")
             }
 //            print(nameArry)
 //
@@ -26,11 +26,29 @@ final class LoLBroTests: XCTestCase {
             
         })
         
-        
+       
+        league.lolAPI.getItems() { (allItems, errorMsg) in
+            if let allItems = allItems {
+                print("=======")
+                print(allItems[3].description)
+                print("=======")
+            }
+            else {
+                print("Request failed cause: \(errorMsg ?? "No error description")")
+            }
+        }
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func ItemsCall() throws {
+        let league = LeagueAPI(APIToken: "RGAPI-28c5651f-ec5e-4f4a-8426-82b103d38b8f")
+        league.lolAPI.getItems() { (allItems, errorMsg) in
+            if let allItems = allItems {
+                print("Success!")
+            }
+            else {
+                print("Request failed cause: \(errorMsg ?? "No error description")")
+            }
+        }
     }
 
     func testExample() throws {

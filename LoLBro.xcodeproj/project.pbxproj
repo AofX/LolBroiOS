@@ -17,6 +17,7 @@
 		43A285222A970346004A1A94 /* ChampNameIDDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A2851F2A970346004A1A94 /* ChampNameIDDictionary.swift */; };
 		43A285252A970350004A1A94 /* AbilityFormula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A285242A970350004A1A94 /* AbilityFormula.swift */; };
 		43A285282A9707DD004A1A94 /* LeagueAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 43A285272A9707DD004A1A94 /* LeagueAPI */; };
+		43D00F5C2A9E771200197797 /* AllChamps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D00F5B2A9E771200197797 /* AllChamps.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		43A2851F2A970346004A1A94 /* ChampNameIDDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampNameIDDictionary.swift; sourceTree = "<group>"; };
 		43A285242A970350004A1A94 /* AbilityFormula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbilityFormula.swift; sourceTree = "<group>"; };
 		43A285292A970C1A004A1A94 /* StringCleanup.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StringCleanup.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		43D00F5B2A9E771200197797 /* AllChamps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllChamps.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				43A2851F2A970346004A1A94 /* ChampNameIDDictionary.swift */,
+				43D00F5B2A9E771200197797 /* AllChamps.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			files = (
 				43A284F42A97026A004A1A94 /* ContentView.swift in Sources */,
 				43A284F22A97026A004A1A94 /* LoLBroApp.swift in Sources */,
+				43D00F5C2A9E771200197797 /* AllChamps.swift in Sources */,
 				43A285222A970346004A1A94 /* ChampNameIDDictionary.swift in Sources */,
 				43A285252A970350004A1A94 /* AbilityFormula.swift in Sources */,
 			);
