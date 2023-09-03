@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		437D3FDB2AA4E37D00CFC8D6 /* ChampInfoInputForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437D3FDA2AA4E37D00CFC8D6 /* ChampInfoInputForm.swift */; };
 		43A284F22A97026A004A1A94 /* LoLBroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A284F12A97026A004A1A94 /* LoLBroApp.swift */; };
-		43A284F42A97026A004A1A94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A284F32A97026A004A1A94 /* ContentView.swift */; };
+		43A284F42A97026A004A1A94 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A284F32A97026A004A1A94 /* HomeView.swift */; };
 		43A284F62A97026C004A1A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A284F52A97026C004A1A94 /* Assets.xcassets */; };
 		43A284F92A97026C004A1A94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A284F82A97026C004A1A94 /* Preview Assets.xcassets */; };
 		43A285032A97026C004A1A94 /* LoLBroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A285022A97026C004A1A94 /* LoLBroTests.swift */; };
@@ -17,7 +18,6 @@
 		43A285222A970346004A1A94 /* ChampNameIDDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A2851F2A970346004A1A94 /* ChampNameIDDictionary.swift */; };
 		43A285252A970350004A1A94 /* AbilityFormula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A285242A970350004A1A94 /* AbilityFormula.swift */; };
 		43A285282A9707DD004A1A94 /* LeagueAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 43A285272A9707DD004A1A94 /* LeagueAPI */; };
-		43D00F5C2A9E771200197797 /* AllChamps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D00F5B2A9E771200197797 /* AllChamps.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		437D3FDA2AA4E37D00CFC8D6 /* ChampInfoInputForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampInfoInputForm.swift; sourceTree = "<group>"; };
 		43A284EE2A97026A004A1A94 /* LoLBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoLBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A284F12A97026A004A1A94 /* LoLBroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoLBroApp.swift; sourceTree = "<group>"; };
-		43A284F32A97026A004A1A94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43A284F32A97026A004A1A94 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		43A284F52A97026C004A1A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43A284F82A97026C004A1A94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		43A284FE2A97026C004A1A94 /* LoLBroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoLBroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,7 +52,6 @@
 		43A2851F2A970346004A1A94 /* ChampNameIDDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampNameIDDictionary.swift; sourceTree = "<group>"; };
 		43A285242A970350004A1A94 /* AbilityFormula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbilityFormula.swift; sourceTree = "<group>"; };
 		43A285292A970C1A004A1A94 /* StringCleanup.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StringCleanup.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		43D00F5B2A9E771200197797 /* AllChamps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllChamps.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		437D3FD92AA4E34600CFC8D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43A284F32A97026A004A1A94 /* HomeView.swift */,
+				437D3FDA2AA4E37D00CFC8D6 /* ChampInfoInputForm.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		43A284E52A97026A004A1A94 = {
 			isa = PBXGroup;
 			children = (
@@ -103,10 +112,10 @@
 		43A284F02A97026A004A1A94 /* LoLBro */ = {
 			isa = PBXGroup;
 			children = (
+				437D3FD92AA4E34600CFC8D6 /* Views */,
 				43A2851D2A9702EB004A1A94 /* Constants */,
 				43A2851B2A9702C8004A1A94 /* Math */,
 				43A284F12A97026A004A1A94 /* LoLBroApp.swift */,
-				43A284F32A97026A004A1A94 /* ContentView.swift */,
 				43A284F52A97026C004A1A94 /* Assets.xcassets */,
 				43A284F72A97026C004A1A94 /* Preview Content */,
 			);
@@ -151,7 +160,6 @@
 			isa = PBXGroup;
 			children = (
 				43A2851F2A970346004A1A94 /* ChampNameIDDictionary.swift */,
-				43D00F5B2A9E771200197797 /* AllChamps.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -292,9 +300,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43A284F42A97026A004A1A94 /* ContentView.swift in Sources */,
+				43A284F42A97026A004A1A94 /* HomeView.swift in Sources */,
 				43A284F22A97026A004A1A94 /* LoLBroApp.swift in Sources */,
-				43D00F5C2A9E771200197797 /* AllChamps.swift in Sources */,
+				437D3FDB2AA4E37D00CFC8D6 /* ChampInfoInputForm.swift in Sources */,
 				43A285222A970346004A1A94 /* ChampNameIDDictionary.swift in Sources */,
 				43A285252A970350004A1A94 /* AbilityFormula.swift in Sources */,
 			);
