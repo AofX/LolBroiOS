@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		434A61572ADC6D1F00B73D28 /* StorageKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434A61562ADC6D1F00B73D28 /* StorageKeys.swift */; };
+		435B101D2AB8CA5F00C5598D /* AllChampNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B101C2AB8CA5F00C5598D /* AllChampNames.swift */; };
 		437D3FDB2AA4E37D00CFC8D6 /* ChampInfoInputForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437D3FDA2AA4E37D00CFC8D6 /* ChampInfoInputForm.swift */; };
+		437D3FDE2AA4F09400CFC8D6 /* ChampionSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437D3FDD2AA4F09400CFC8D6 /* ChampionSearch.swift */; };
 		43A284F22A97026A004A1A94 /* LoLBroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A284F12A97026A004A1A94 /* LoLBroApp.swift */; };
 		43A284F42A97026A004A1A94 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A284F32A97026A004A1A94 /* HomeView.swift */; };
 		43A284F62A97026C004A1A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A284F52A97026C004A1A94 /* Assets.xcassets */; };
@@ -38,7 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		434A61562ADC6D1F00B73D28 /* StorageKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageKeys.swift; sourceTree = "<group>"; };
+		435B101C2AB8CA5F00C5598D /* AllChampNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllChampNames.swift; sourceTree = "<group>"; };
 		437D3FDA2AA4E37D00CFC8D6 /* ChampInfoInputForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampInfoInputForm.swift; sourceTree = "<group>"; };
+		437D3FDD2AA4F09400CFC8D6 /* ChampionSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionSearch.swift; sourceTree = "<group>"; };
 		43A284EE2A97026A004A1A94 /* LoLBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoLBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A284F12A97026A004A1A94 /* LoLBroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoLBroApp.swift; sourceTree = "<group>"; };
 		43A284F32A97026A004A1A94 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -85,8 +91,18 @@
 			children = (
 				43A284F32A97026A004A1A94 /* HomeView.swift */,
 				437D3FDA2AA4E37D00CFC8D6 /* ChampInfoInputForm.swift */,
+				43A284F12A97026A004A1A94 /* LoLBroApp.swift */,
+				437D3FDD2AA4F09400CFC8D6 /* ChampionSearch.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		437D3FDC2AA4E98600CFC8D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				435B101C2AB8CA5F00C5598D /* AllChampNames.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		43A284E52A97026A004A1A94 = {
@@ -112,10 +128,10 @@
 		43A284F02A97026A004A1A94 /* LoLBro */ = {
 			isa = PBXGroup;
 			children = (
+				437D3FDC2AA4E98600CFC8D6 /* Models */,
 				437D3FD92AA4E34600CFC8D6 /* Views */,
 				43A2851D2A9702EB004A1A94 /* Constants */,
 				43A2851B2A9702C8004A1A94 /* Math */,
-				43A284F12A97026A004A1A94 /* LoLBroApp.swift */,
 				43A284F52A97026C004A1A94 /* Assets.xcassets */,
 				43A284F72A97026C004A1A94 /* Preview Content */,
 			);
@@ -160,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				43A2851F2A970346004A1A94 /* ChampNameIDDictionary.swift */,
+				434A61562ADC6D1F00B73D28 /* StorageKeys.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -304,6 +321,9 @@
 				43A284F22A97026A004A1A94 /* LoLBroApp.swift in Sources */,
 				437D3FDB2AA4E37D00CFC8D6 /* ChampInfoInputForm.swift in Sources */,
 				43A285222A970346004A1A94 /* ChampNameIDDictionary.swift in Sources */,
+				437D3FDE2AA4F09400CFC8D6 /* ChampionSearch.swift in Sources */,
+				434A61572ADC6D1F00B73D28 /* StorageKeys.swift in Sources */,
+				435B101D2AB8CA5F00C5598D /* AllChampNames.swift in Sources */,
 				43A285252A970350004A1A94 /* AbilityFormula.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

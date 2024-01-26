@@ -33,8 +33,16 @@ struct HomeView: View {
                                     Text("Choose Champion")
                                         .foregroundColor(.white)
                                         .font(.system(size: 30, design: .rounded))
+                                        
                                 }
                             }
+                            .simultaneousGesture(TapGesture().onEnded{
+                                if number == 1 {
+                                    UserDefaults.standard.setValue("self", forKey: StorageKeys.isChoosingEnemyOrSelf)
+                                } else if number == 2 {
+                                    UserDefaults.standard.setValue("enemy", forKey: StorageKeys.isChoosingEnemyOrSelf)
+                                }
+                            })
                             //.navigationBarTitle("Some")
                         } else {
                             NavigationLink(destination: ChampInfoInputForm()) {
@@ -57,7 +65,7 @@ struct HomeView: View {
                     }
                 }
             }
-            .navigationTitle("Sample Grids")
+            .navigationTitle("HomeView")
             .padding()
         }
     }
